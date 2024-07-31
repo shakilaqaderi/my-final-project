@@ -1,0 +1,160 @@
+/*END STYLES PART OF SLIDE SHOW*/
+.autoslide{
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+.slideshow{
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    inset: 0;
+    animation: slide-show 9s infinite;
+}
+.slide-2{
+    animation-delay: 3s;
+}
+.slide-3{
+    animation-delay: 6s;
+}
+.slideshow img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@keyframes slide-show{
+    0%{opacity: 0;}
+    10%{opacity: 1;}
+    20%, 30%{opacity: 1; scale: 1.04;}
+    50%{opacity: 0;}
+}
+/*END STYLES PART OF SLIDE SHOW*/
+
+/*STYLES PART OF WHAT WE OFFER*/
+.offer{
+	text-align: center;
+}
+.offer img{
+	width: 100%;
+}
+.offer h4{
+	font-weight: 600;
+}
+.offer .btn{
+	border: none;
+	border-top: 1px solid #004332;
+	border-bottom: 1px solid #004332;
+	background: none;
+	padding: 3px 10px;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	background-image: url('images/1.jpg');
+}
+.btn1{
+	color: #004332;
+}
+.btn1:hover{
+	color: #fff;
+}
+.offer .btn::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background: #004332;
+	z-index: -1;
+	transition: 0.8s;
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+.btn1:hover::before{
+	height: 180%;
+}
+/*END STYLES PART OF WHAT WE OFFER*/
+
+/*STYLES PART OF AUTO SLIDER*/
+.slider{
+	height: 280px;
+	margin: auto;
+	position: relative;
+	width: 90%;
+	display: grid;
+	place-items: center;
+	overflow: hidden;
+}
+.slide-track{
+	display: flex;
+	width: calc(250px * 18);
+	animation: scroll 35s linear infinite;
+}
+.slide-track:hover{
+	animation-play-state: paused;
+}
+@keyframes scroll{
+	0%{transform: translateX(0);}
+	100%{transform: translateX(calc(-250px * 9));}
+}
+.slide{
+	height: 260px;
+	width: 260px;
+	align-items: center;
+	padding: 12px;
+	perspective: 100px;
+	text-align: center;
+}
+.slide h5{
+	padding: 10px 0;
+}
+.slide img{
+	width: 100%;
+	transition: transform 1s;
+}
+.slide img:hover{
+	transform: scale(1.1);
+}
+/*END STYLES PART OF AUTO SLIDER*/
+
+/*STYLES PART OF WHY CHOOSE US*/
+.choose-us h1{
+	text-align: center;
+}
+.choose-us .text1-icon{
+	text-align: right;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding: 25px;
+	overflow: hidden;
+}
+.image-choose{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: auto;
+}
+.choose-us img{
+	width: 100%;
+	overflow: hidden;
+}
+.choose-us .text2-icon{
+	text-align: left;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding: 25px;
+	overflow: hidden;
+}
+.choose-us i{
+	font-size: 35px;
+	color: #004332;
+}
+.border-bottom{
+	border-bottom: 1px solid #000;
+}
+/*END STYLES PART OF WHY CHOOSE US*/
