@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.team img{
+    width: 100%;
+}
+.latest h1{
+    text-align: center
+}
+.latest img{
+    width: 100%;
+}
+.latest p{
+    font-family: ScriptMTBold;
+    color: maroon;
+}
+.our-customer .col-md-4{
+    text-align: center;
+    background: #eaeaee;
+    border: 1px solid #fcfcff;
+}
+
+.our-customer .col-md-4 i{
+    color: rgb(223, 204, 33);
+}
+.our-customer .col-md-4 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+.our-customer .col-md-4 img:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+.customers-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
