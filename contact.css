@@ -1,0 +1,24 @@
+.contact input{
+    border: none;
+    border-bottom: 1px solid #004332;
+    border-radius: 0px;
+}
+.contact textarea{
+    border: none;
+    border-bottom: 1px solid #004332;
+    border-radius: 0px;
+}
+.contact button{
+    padding: 3px 20px;
+    border: 1px solid #004332;
+    background: #004332;
+    color: #fff;
+    border-radius: 5px;
+}
+.contact img{
+    width: 100%;
+}
+::-webkit-input-placeholder{
+    color: #004332;
+    font-size: 13px;
+}
