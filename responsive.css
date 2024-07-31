@@ -1,0 +1,106 @@
+@media (max-width: 230px){
+	.offer h4{
+		font-weight: 500;
+		font-size: 15px;
+	}
+	.offer .btn{
+		font-size: 12px;
+	}
+	.offer p{
+		font-size: 12px;
+	}
+}
+
+/*responsive of about page*/
+@media (max-width:992px){
+	.team{
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	.team .cardbx{
+		width: 400px;
+	}
+}
+@media (max-width:600px){
+	.team {
+		visibility: hidden;
+	}
+}
+/*end responsive of about page*/
+
+/*footer*/
+@media (max-width: 1116px){
+	footer .social-icons .fab{
+		width: 33px;
+		height: 33px;
+		line-height: 33px;
+		font-size: 15px;
+		margin-right: 8px;
+	}
+	footer h6{
+		font-size: 14px;
+	}
+}
+@media (max-width: 991px){
+	footer .social-icons .fab{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 13px;
+		margin-right: 5px;
+	}
+	.navbar .gold{
+		position: relative;
+		left: 50px;
+	}
+}
+@media (max-width: 770px){
+	footer .social-icons .fab{
+		width: 36px;
+		height: 36px;
+		line-height: 36px;
+		font-size: 15px;
+		margin-right: 10px;
+	}
+	footer{
+		bottom: unset;
+	}
+	footer .col-md-3{
+		flex-basis: 100%;
+	}
+	.col-md-3:nth-child(2), .col-md-3:nth-child(3){
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 450px){
+	#toggleDark{
+		font-size: 15px; 
+	}
+	#shopping-icon{
+		font-size: 15px;
+	}
+	.navbar .gold{
+		font-size: 25px;
+		position: relative;
+		left: 50px;
+	}
+	.navbar .navbar-toggler{
+		font-size: 15px;
+	}
+	.modal{
+		font-size: 13px;
+	}
+	#header-image h4{
+		font-size: 15px;
+	}
+	#header-image p{
+		font-size: 15px;
+	}
+	.our-menu{
+		font-size: 22px;
+	}
+	.video .text p{
+		font-size: 14px;
+	}
+}
