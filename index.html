@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<script src="bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="navbar-footer.css" />
+		<meta name="" content="width=device-width, inicial-scale=1"/>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="responsive.css" />
+		<script src="bootstrap/bootstrap/dist/js/jquery.min.js"></script>
+	</head>
+	<body>
+		<!--PART OF NAVBAR-->
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand me-auto gold" href="index.html">GOLD</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" style="text-align: left; position: fixed; left: 10px;
+				top: 20px; color: #b9a45f; background: #b9a45f;">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link mx-lg-2" href="index.html" style="color: #cab469; border-bottom: 1px solid #cab469; border-radius: 3px;">HOME</a></li>
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">CATAGORY</a>
+							<ul class="dropdown-menu" style="background: rgba(0,67,50, .9);">
+								<li class="nav-item"><a href="IceCream.html" class="nav-link">ICE CREAM</a></li>
+								<li class="nav-item"><a href="Cakes-page.html" class="nav-link">CAKE</a></li>
+								<li class="nav-item"><a href="Pizza-page.html" class="nav-link">PIZZA</a></li>
+								<li class="nav-item"><a href="Seafood-page.html" class="nav-link">SEAFOOD</a></li>
+								<li class="nav-item"><a href="Salad-page.html" class="nav-link">SALAD</a></li>
+								<li class="nav-item"><a href="Coffee-page.html" class="nav-link">COFFEE</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link mx-lg-2" href="about.html">ABOUT</a></li>
+						<li class="nav-item"><a class="nav-link mx-lg-2" href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+			<i class="fa-solid fa-cart-shopping me-3" id="shopping-icon" data-bs-toggle="modal" data-bs-target="#mymodal2" style="text-align: left; position: fixed; right: 35px;
+			top: 26px;"></i>
+			<i class="fa-solid fa-sun me-3" id="toggleDark" style="text-align: left; position: fixed; right: 5px;
+			top: 26px;"></i>
+		</nav>
+		<br  id="top">
+		<br>
+		<!--END PART OF NAVBAR-->
+
+		<!--PART OF ORDER NOW-->
+		<div class="container">
+			<div class="modal fade" id="mymodal2">
+				<div class="modal-dialog modal-md modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-body p-5">
+							<button type="button" class="btn-close mb-4 bg-warning" data-bs-dismiss="modal"></button>
+							<div class="row">
+								<div class="col"> 
+									<label for="email" class="form-label">Name:</label> 
+									<input type="email" id="email" class="form-control mb-3" placeholder="" />
+								</div> 
+							</div>
+							<div class="row">
+								<div class="col"> 
+									<label for="pass" class="form-label">How Much:</label> 
+									<input type="number" id="pass" class="form-control mb-3" placeholder="" />
+								</div> 
+							</div>
+							<div class="row">
+								<div class="col"> 
+									<label for="email" class="form-label">Your Order:</label> 
+									<input type="email" id="email" class="form-control mb-3" placeholder="" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="col"> 
+									<label for="pass" class="form-label">Address:</label> 
+									<input type="password" id="pass" class="form-control mb-3" placeholder="" />
+								</div> 
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<button type="button" class="button"><a class="nav-link" href="submit-shopping.html">Order Now</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END PART OF ORDER NOW-->
+
+		<!--PART OF SLIDE SHOW HEADER-->
+		<div class="container-fluid mt-3 ms-0 me-0 ps-0">
+			<div class="row pe-0">
+				<div class="col-md-12 pe-0">
+					<div class="autoslide">
+						<div class="slideshow slide-1">
+							<img src="slide1.PNG" alt="">
+						</div>
+						<div class="slideshow slide-2">
+							<img src="slide2.jpg" alt="">
+						</div>
+						<div class="slideshow slide-3">
+							<img src="slide3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END PART OF SLIDE SHOW HEADER-->
+		<br>
+		<!--PART OF WHAT WE OFFER-->
+		<div class="container fluid offer mt-3">
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<h1>WHAT WE OFFER</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="ice.jpg" alt="" class="img-thumbnail">
+					<h4 class="mt-3">ICE CREAM</h4>
+					<p>Chocolate ice cream is a type of ice cream and dessert. Usually, its made from cocoa powder.</p>
+					<button class="mb-3 btn btn1" onclick="location.href='IceCream.html';">READ MORE</button>
+				</div>
+				<div class="col-md-4">
+					<img src="cake.jpg" alt="" class="img-thumbnail">
+					<h4 class="mt-3">CHOCOLATE CAKE</h4>
+					<p>Chocolate cake is a classic and timeless Italian dessert without milk which everyone always likes.</p>
+					<button class="mb-3 btn btn1" onclick="location.href='Cakes-page.html';">READ MORE</button>
+				</div>
+				<div class="col-md-4">
+					<img src="pizza.jpg" alt="" class="img-thumbnail">
+					<h4 class="mt-3">SAUSAGE PIZZA</h4>
+					<p>Our Sausage Pizza has sausage, cheese, onion, ketchup, mayo, and parsley flakes.</p>
+					<button class="mb-3 btn btn1" onclick="location.href='';">READ MORE</button>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-md-4">
+					<img src="fish.jpg" alt="" class="img-thumbnail">
+					<h4 class="mt-3">FRIED FISH</h4>
+					<p>Fish is fried in many parts of the world, and fried fish is an important food in many cuisines.</p>
+					<button class="mb-3 btn btn1" onclick="location.href='';">READ MORE</button>
+				</div>
+				<div class="col-md-4">
+					<img src="fruit.jpg" alt="" class="img-thumbnail">
+					<h4 class="mt-3">CHERRY SALAD</h4>
+					<p>Cherry Salad is a fluff salad recipe made with 6 ingredients and takes only minutes to make.</p>
+					<button class="mb-3 btn btn1" onclick="location.href='';">READ MORE</button>
+				</div>
+				<div class="col-md-4">
+					<img src="coffee.jpg" alt="" class="img-thumbnail">
+					<h4 class="mt-3">ICE COFFEE</h4>
+					<p>An iced coffee is a cold version of your favourite coffee.</p>
+					<button class="mb-3 btn btn1" onclick="location.href='';">READ MORE</button>
+				</div>
+			</div>
+		</div>
+		<!--END PART OF WHAT WE OFFER-->
+
+		<!--PART OF AUTO SLIDER-->
+		<div class="slider mt-3">
+			<div class="slide-track">
+				<!--12 slides-->
+				<div class="slide">
+					<img src="home1.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home2.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home3.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home4.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home5.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home6.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home7.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home8.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home9.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home10.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home11.webp" alt="">
+				</div>
+				<div class="slide">
+					<img src="home12.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home1.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home2.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home3.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home4.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home5.jpg" alt="">
+				</div>
+				<div class="slide">
+					<img src="home6.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!--END PART OF AUTO SLIDER-->
+
+		<!--PART OF WHY CHOOSE US-->
+		<div class="container choose-us">
+			<div class="row mt-3 mb-2">
+				<div class="col-md-12">
+					<h1>WHY CHOOSE US</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="text1-icon border-bottom">
+						<div>
+							<h5>QUALITY PRODUCTS</h5>
+							<p>We guarantee the quality of all the menu we provide as they are foods using the freshest ingredients.</p>
+						</div>
+						<i class="fa-solid fa-utensils ps-4"></i>
+					</div>
+					<div class="text1-icon">
+						<div>
+							<h5>FREE DELIVERY</h5>
+							<p>All orders submitted by our US clients are delivered for free throughout the United States.</p>
+						</div>
+						<i class="fa-solid fa-truck ps-4"></i>
+					</div>
+				</div>
+				<div class="col-md-4 image-choose">
+					<img src="whychoose.png" alt="">
+				</div>
+				<div class="col-md-4">
+					<div class="text2-icon border-bottom">
+						<i class="fa-solid fa-bell-concierge pe-4"></i>
+						<div>
+							<h5>CATERING SERVICE</h5>
+							<p>Our restaurant also provides an outstanding catering service for events and special occasions.</p>
+						</div>
+					</div>
+					<div class="text2-icon">
+						<i class="fa-solid fa-money-check pe-4"></i>
+						<div>
+							<h5>ONLINE PAYMENT</h5>
+							<p>We accept all kinds of online payments including Visa, MasterCard, American Express credit cards.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END PART OF WHY CHOOSE US-->
+		<a href="#top" class="to-top">
+			<i class="fas fa-chevron-up"></i>
+		</a>
+		<!--START PART OF FOOTER-->
+		<footer class="mt-5">
+			<div class="row row-footer">
+				<div class="col-md-3">
+					<h3 class="logo">GOLD</h3>
+					<p>Subscribe Easy tutorials Youtube channel to watch more videos our
+					website and Press the bell icon to get immediate notification of latest videos. </p>
+				</div>
+				<div class="col-md-3">
+					<h3>Office <div class="underline"><span></span></div></h3>
+					<p>ITPL Road</p>
+					<p>whitefield, london</p>
+					<p>Karnatake, PIN 230045, Engeland</p>
+					<h6>+93 - 0748278164</h6>
+				</div>
+				<div class="col-md-3">
+					<h3>Links <div class="underline"><span></span></div></h3>
+					<ul class="ms-0 ps-0">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Newsletter <div class="underline"><span></span></div></h3>
+					<form>
+						<i class="far fa-envelope"></i>
+						<input type="email" placeholder="Enter your email id" required>
+						<button type="submit"><i class="fas fa-arrow-right"></i></button>
+					</form>
+					<div class="social-icons">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-whatsapp"></i>
+						<i class="fab fa-pinterest"></i>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<p class="text">easy tutorials  2024 - All Right Reserved</p>
+		</footer>
+		<!--END PART OF FOOTER-->
+		<script>
+			const toTop = document.querySelector(".to-top");
+
+			window.addEventListener("scroll", ()=>{
+				if(window.pageYOffset > 450){
+					toTop.classList.add("active");
+				}
+				else{
+					toTop.classList.remove("active");
+				}
+			})
+
+			const toggle = document.getElementById('toggleDark');
+			const body = document.querySelector('body');
+			toggle.addEventListener('click', function(){
+				this.classList.toggle('fa-moon')
+				if(this.classList.toggle('fa-sun')){
+					body.style.background = '#fff';
+					body.style.color = '#000';
+					body.style.transition = '1s'
+				}
+				else{
+					body.style.background = '#000';
+					body.style.color = '#fff';
+					body.style.transition = '1s'
+				}
+			})
+		</script>
+	</body>
+</html>
