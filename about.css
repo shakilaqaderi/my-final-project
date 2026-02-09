@@ -48,4 +48,91 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+
+}
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-collapse {
+    background: rgba(0, 67, 50, 0.95);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
+
+  .navbar-nav .nav-link {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /* Header image */
+  .header img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Slider section */
+  .slider .col-md-6 {
+    width: 100%;
+  }
+
+  .slider h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .slider p,
+  .slider h6 {
+    text-align: justify;
+  }
+
+  /* Our customers */
+  .our-customer .col-md-4 {
+    text-align: center;
+  }
+
+  .customers-img img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Latest news */
+  .latest .col-md-8,
+  .latest .col-md-4 {
+    width: 100%;
+  }
+
+  .latest h1 {
+    text-align: center;
+  }
+
+  .latest img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  footer .col-md-3 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  footer form {
+    justify-content: center;
+  }
+
+  /* To top button */
+  .to-top {
+    right: 15px;
+    bottom: 15px;
+  }
 }
